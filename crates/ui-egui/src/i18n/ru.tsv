@@ -529,8 +529,8 @@
 	ICASYS Foto Website	Сайт ICASYS Foto
 	ICASYS Foto on GitHub	ICASYS Foto на GitHub
 	Report an Issue…	Сообщить о проблеме…
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	Сайт ICASYS
+	ICASYS Community…	Сообщество ICASYS…
 	System Info…	Информация о системе…
 
 # Tools and options bar
@@ -1666,9 +1666,8 @@
 	Preserve Transparency	Сохранить прозрачность
 	Reverse	Обратить
 	Align with layer	По слою
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	Перейти на сайт ICASYS
 	ICASYS Foto website	Сайт ICASYS Foto
-	ICASYS	ICASYS
 	GitHub	GitHub
 	No character style	Нет стиля символов
 	No author	Нет автора
@@ -2092,6 +2091,7 @@
 	Delete tool preset	Удалить набор инструментов
 	Depth Jitter	Колебание глубины
 	Discontiguous	Несмежные пикселы
+	ICASYS Community	Сообщество ICASYS
 	Display P3	Display P3
 	Display Text	Показывать текст
 	Divide…	Деление…
@@ -3064,7 +3064,7 @@ curves	Smooth	Сгладить
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Загружена {n} операция из {file}|Загружены {n} операции из {file}|Загружено {n} операций из {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} шаг пока не имеет эквивалента в ICASYS Foto|{n} шага пока не имеют эквивалента в ICASYS Foto|{n} шагов пока не имеют эквивалента в ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} шаг пока не имеет эквивалента в ICASYS Foto|{n} шага пока не имеют эквивалента в ICASYS Foto|{n} шагов пока не имеют эквивалента в ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Сохранена {n} операция в {file}|Сохранены {n} операции в {file}|Сохранено {n} операций в {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Пропущен {n} шаг без эквивалента в Photoshop|Пропущены {n} шага без эквивалента в Photoshop|Пропущено {n} шагов без эквивалента в Photoshop
 

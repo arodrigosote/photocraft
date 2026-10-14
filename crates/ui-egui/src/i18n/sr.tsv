@@ -769,8 +769,8 @@
 	About ICASYS Foto	O programu ICASYS Foto
 	ICASYS Foto Website	Veb-sajt ICASYS Foto-a
 	ICASYS Foto on GitHub	ICASYS Foto na GitHub-u
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	Веб-сајт ICASYS
+	ICASYS Community…	Заједница ICASYS…
 	Report an Issue…	Prijavi problem…
 	WIA Support…	WIA podrška…
 	Apply	Primeni
@@ -1045,7 +1045,7 @@
 	Diffusion	Difuzija
 	Discard the embedded profile (don't color manage)	Odbaci ugrađeni profil (bez upravljanja bojama)
 	Discontiguous	Nesusedno
-	ICASYS	ICASYS
+	ICASYS Community	Заједница ICASYS
 	Dismiss	Odbaci
 	Display P3	Display P3
 	Display Text	Tekst za prikaz
@@ -1171,7 +1171,7 @@
 	Invert All	Invertuj sve
 	Invert has no settings.	Invertovanje nema podešavanja.
 	Italic	Kurziv
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	Посетите ICASYS
 	Justify all	Obostrano poravnaj sve redove
 	Justify last centered	Obostrano, poslednji red centriran
 	Justify last left	Obostrano, poslednji red levo
@@ -3487,7 +3487,6 @@ layerLabel	No Color	Bez boje
 	Custom Pixel Aspect Ratio	Prilagođeni odnos stranica piksela
 	32-bit Preview Options	Opcije 32-bitnog pregleda
 	New Guide	Nova vodilja
-	ICASYS Community	ICASYS Community
 	Report an Issue	Prijavi problem
 	Load Files into Stack	Učitaj datoteke u stek
 	Statistics	Statistika
@@ -4041,7 +4040,7 @@ navigator	Zoom	Uvećanje
 	on	uključeno
 	off	isključeno
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Ova korekcija ({key}) je zadržana onakva kakva je uvezena i još ne može da se uređuje.
-	ICASYS Website ({url})	ICASYS Website ({url})
+	ICASYS Website ({url})	Веб-сајт ICASYS ({url})
 	{index} of {total}	{index} od {total}
 	{shortcut} assigned.	{shortcut} je dodeljena.
 	{shortcut} is already in use by {commands} and will be removed from it when you click OK.	{shortcut} već koristi {commands} i biće uklonjena odatle kada kliknete U redu.
@@ -4182,7 +4181,7 @@ shape	Appearance	Izgled
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Učitana je {n} radnja iz {file}|Učitane su {n} radnje iz {file}|Učitano je {n} radnji iz {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} korak još nema ekvivalent u ICASYS Fotou|{n} koraka još nemaju ekvivalent u ICASYS Fotou|{n} koraka još nema ekvivalent u ICASYS Fotou
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} korak još nema ekvivalent u ICASYS Fotou|{n} koraka još nemaju ekvivalent u ICASYS Fotou|{n} koraka još nema ekvivalent u ICASYS Fotou
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Sačuvana je {n} radnja u {file}|Sačuvane su {n} radnje u {file}|Sačuvano je {n} radnji u {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Izostavljen je {n} korak bez ekvivalenta u Photoshopu|Izostavljena su {n} koraka bez ekvivalenta u Photoshopu|Izostavljeno je {n} koraka bez ekvivalenta u Photoshopu
 	Insert Stop…	Umetni zaustavljanje…

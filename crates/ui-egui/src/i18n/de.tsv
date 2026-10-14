@@ -785,8 +785,8 @@
 	About ICASYS Foto	Über ICASYS Foto
 	ICASYS Foto Website	ICASYS Foto-Website
 	ICASYS Foto on GitHub	ICASYS Foto auf GitHub
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	ICASYS-Website
+	ICASYS Community…	ICASYS-Community…
 	Report an Issue…	Problem melden…
 	WIA Support…	WIA-Unterstützung…
 	Apply	Anwenden
@@ -1071,7 +1071,7 @@
 	Diffusion	Diffusion
 	Discard the embedded profile (don't color manage)	Eingebettetes Profil verwerfen (keine Farbverwaltung)
 	Discontiguous	Nicht benachbart
-	ICASYS	ICASYS
+	ICASYS Community	ICASYS-Community
 	Dismiss	Ausblenden
 	Display P3	Display P3
 	Display Text	Text anzeigen
@@ -1206,7 +1206,7 @@
 	Invert All	Alle invertieren
 	Invert has no settings.	Invertieren hat keine Einstellungen.
 	Italic	Kursiv
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	ICASYS besuchen
 	Justify all	Alles im Blocksatz
 	Justify last centered	Letzte Zeile zentriert
 	Justify last left	Letzte Zeile links
@@ -2748,7 +2748,7 @@ curves	Smooth	Glätten
 	Medium Blue	Mittelblau
 	Light Gray	Hellgrau
 # Status messages, system info and tool names
-	ICASYS Website ({url})	ICASYS Website ({url})
+	ICASYS Website ({url})	ICASYS-Website ({url})
 	Nothing to paste: the clipboard holds no image	Nichts einzufügen: Die Zwischenablage enthält kein Bild
 	Graphics adapter: {adapter}	Grafikadapter: {adapter}
 	Backend: {backend} ({type})	Backend: {backend} ({type})
@@ -3116,7 +3116,7 @@ curves	Smooth	Glätten
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} Aktion aus {file} geladen|{n} Aktionen aus {file} geladen
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} Schritt hat noch keine Entsprechung in ICASYS Foto|{n} Schritte haben noch keine Entsprechung in ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} Schritt hat noch keine Entsprechung in ICASYS Foto|{n} Schritte haben noch keine Entsprechung in ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} Aktion in {file} gespeichert|{n} Aktionen in {file} gespeichert
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	{n} Schritt ohne Photoshop-Entsprechung ausgelassen|{n} Schritte ohne Photoshop-Entsprechung ausgelassen
 

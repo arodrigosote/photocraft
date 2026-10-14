@@ -1239,7 +1239,7 @@
 	Custom Pixel Aspect Ratio	Προσαρμοσμένη αναλογία εικονοστοιχείων
 	32-bit Preview Options	Επιλογές προεπισκόπησης 32 bit
 	New Guide	Νέος οδηγός
-	ICASYS Community	ICASYS Community
+	ICASYS Community	Κοινότητα ICASYS
 	Report an Issue	Αναφορά προβλήματος
 	Load Files into Stack	Φόρτωση αρχείων σε στοίβα
 	Statistics	Στατιστικά
@@ -2061,7 +2061,7 @@
 	Arc	Τόξο
 	Arch	Καμάρα
 	Art & Illustration	Τέχνη και εικονογράφηση
-	ICASYS Website	ICASYS Website
+	ICASYS Website	Ιστότοπος ICASYS
 	Artboard Background Color	Χρώμα φόντου πίνακα σχεδίασης
 	Artboard Guides	Οδηγοί πίνακα σχεδίασης
 	Artboard from Group	Πίνακας σχεδίασης από ομάδα
@@ -2565,8 +2565,8 @@
 	Iris Blur…	Θόλωση ίριδας…
 	Italic	Πλάγια
 	Jag	Οδοντωτό
-	ICASYS Community…	ICASYS Community…
-	Visit ICASYS	Visit ICASYS
+	ICASYS Community…	Κοινότητα ICASYS…
+	Visit ICASYS	Επισκεφθείτε το ICASYS
 	Jpeg quality	Ποιότητα JPEG
 	Justification	Πλήρης στοίχιση
 	Justify	Πλήρης στοίχιση
@@ -3406,7 +3406,6 @@ cameraRaw	Yellow	Κίτρινο
 	Add to Swatches	Προσθήκη στα δείγματα χρωμάτων
 	Alt	Alt
 	Anamorphic 2:1 (2)	Αναμορφικό 2:1 (2)
-	ICASYS	ICASYS
 	Blend If:	Ανάμειξη υπό όρους:
 	Channels:	Κανάλια:
 	Click a red pupil to neutralize it	Κάντε κλικ σε μια κόκκινη κόρη για να την εξουδετερώσετε
@@ -3816,7 +3815,7 @@ curves	Smooth	Εξομάλυνση
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Φορτώθηκε {n} ενέργεια από το {file}|Φορτώθηκαν {n} ενέργειες από το {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} βήμα δεν έχει ακόμη αντίστοιχο στο ICASYS Foto|{n} βήματα δεν έχουν ακόμη αντίστοιχο στο ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} βήμα δεν έχει ακόμη αντίστοιχο στο ICASYS Foto|{n} βήματα δεν έχουν ακόμη αντίστοιχο στο ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Αποθηκεύτηκε {n} ενέργεια στο {file}|Αποθηκεύτηκαν {n} ενέργειες στο {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Παραλείφθηκε {n} βήμα χωρίς αντίστοιχο στο Photoshop|Παραλείφθηκαν {n} βήματα χωρίς αντίστοιχο στο Photoshop
 

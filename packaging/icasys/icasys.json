@@ -1,0 +1,8 @@
+{
+  "app": "photocraft",
+  "name": "ICASYS Foto",
+  "slug": "foto",
+  "upstream_name": "PhotoCraft",
+  "upstream_base": "99e1138877e6aa7e856c6883b415e708d042fc59",
+  "owner": "arodrigosote"
+}

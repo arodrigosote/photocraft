@@ -1077,7 +1077,7 @@
 	Diffusion	Difusión
 	Discard the embedded profile (don't color manage)	Descartar el perfil incrustado (no gestionar el color)
 	Discontiguous	No contiguo
-	ICASYS	ICASYS
+	ICASYS Community	Comunidad ICASYS
 	Dismiss	Descartar
 	Display P3	Display P3
 	Display Text	Texto de visualización
@@ -2803,7 +2803,7 @@ curves	Smooth	Suavizar
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Se cargó {n} acción de {file}|Se cargaron {n} acciones de {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} paso aún no tiene equivalente en ICASYS Foto|{n} pasos aún no tienen equivalente en ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} paso aún no tiene equivalente en ICASYS Foto|{n} pasos aún no tienen equivalente en ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Se guardó {n} acción en {file}|Se guardaron {n} acciones en {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	{n} paso sin equivalente en Photoshop omitido|{n} pasos sin equivalente en Photoshop omitidos
 

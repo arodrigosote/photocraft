@@ -790,8 +790,8 @@
 	About ICASYS Foto	ICASYS Foto について
 	ICASYS Foto Website	ICASYS Foto の Web サイト
 	ICASYS Foto on GitHub	GitHub 上の ICASYS Foto
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	ICASYS ウェブサイト
+	ICASYS Community…	ICASYS コミュニティ…
 	Report an Issue…	問題を報告…
 	WIA Support…	WIA サポート…
 	Apply	適用
@@ -1076,7 +1076,7 @@
 	Diffusion	拡散
 	Discard the embedded profile (don't color manage)	埋め込みプロファイルを破棄 (カラーマネジメントしない)
 	Discontiguous	不連続
-	ICASYS	ICASYS
+	ICASYS Community	ICASYS コミュニティ
 	Dismiss	閉じる
 	Display P3	Display P3
 	Display Text	表示テキスト
@@ -1211,7 +1211,7 @@
 	Invert All	すべて反転
 	Invert has no settings.	階調の反転には設定がありません。
 	Italic	イタリック
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	ICASYS を見る
 	Justify all	均等配置 (最終行も)
 	Justify last centered	最終行中央揃えの両端揃え
 	Justify last left	最終行左揃えの両端揃え
@@ -3346,7 +3346,6 @@ fontWeight	Italic	斜体
 	Install Plug-in	プラグインをインストール
 	Intersect with	共通部分
 	Intersect with selection  (⇧⌥)	選択範囲との共通部分  (⇧⌥)
-	ICASYS Community	ICASYS Community
 	Keep proportions	縦横比を固定
 	Keep view in sync	ビューを同期
 	Keeps the current texture when switching presets.	プリセットを切り替えても現在のテクスチャを維持します。
@@ -3725,7 +3724,7 @@ curves	Smooth	スムーズ
 	{name} (Photoshop)	{name}（Photoshop）
 	{message} ({note})	{message}（{note}）
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file} からアクション {n} 個を読み込みました
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} 個のステップにはまだ ICASYS Foto の対応機能がありません
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} 個のステップにはまだ ICASYS Foto の対応機能がありません
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{file} にアクション {n} 個を保存しました
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Photoshop に対応するもののない {n} 個のステップを省きました
 

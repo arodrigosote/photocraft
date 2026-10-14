@@ -800,8 +800,8 @@
 	About ICASYS Foto	關於 ICASYS Foto
 	ICASYS Foto Website	ICASYS Foto 網站
 	ICASYS Foto on GitHub	GitHub 上的 ICASYS Foto
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	ICASYS 網站
+	ICASYS Community…	ICASYS 社群…
 	Report an Issue…	回報問題…
 	WIA Support…	WIA 支援…
 	Apply	套用
@@ -1083,7 +1083,7 @@
 	Diffusion	擴散
 	Discard the embedded profile (don't color manage)	捨棄嵌入的描述檔 (不進行色彩管理)
 	Discontiguous	不連續
-	ICASYS	ICASYS
+	ICASYS Community	ICASYS 社群
 	Dismiss	關閉
 	Display P3	Display P3
 	Display Text	顯示文字
@@ -1218,7 +1218,7 @@
 	Invert All	全部反轉
 	Invert has no settings.	負片效果沒有設定。
 	Italic	斜體
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	造訪 ICASYS
 	Justify all	全部齊行
 	Justify last centered	最後一行置中齊行
 	Justify last left	最後一行靠左齊行
@@ -2713,7 +2713,7 @@ curves	Smooth	平滑
 	{name} (Photoshop)	{name}（Photoshop）
 	{message} ({note})	{message}（{note}）
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	已從 {file} 載入 {n} 個動作
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} 個步驟在 ICASYS Foto 中尚無對應功能
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} 個步驟在 ICASYS Foto 中尚無對應功能
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	已將 {n} 個動作儲存到 {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	已略過 {n} 個沒有 Photoshop 對應功能的步驟
 

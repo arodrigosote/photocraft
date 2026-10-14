@@ -772,8 +772,8 @@
 	About ICASYS Foto	Over ICASYS Foto
 	ICASYS Foto Website	Website van ICASYS Foto
 	ICASYS Foto on GitHub	ICASYS Foto op GitHub
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	ICASYS-website
+	ICASYS Community…	ICASYS-community…
 	Report an Issue…	Probleem melden…
 	WIA Support…	WIA-ondersteuning…
 	Apply	Toepassen
@@ -1057,7 +1057,7 @@
 	Diffusion	Diffusie
 	Discard the embedded profile (don't color manage)	Het ingesloten profiel negeren (geen kleurbeheer)
 	Discontiguous	Niet-aaneengesloten
-	ICASYS	ICASYS
+	ICASYS Community	ICASYS-community
 	Dismiss	Sluiten
 	Display P3	Display P3
 	Display Text	Tekst tonen
@@ -1192,7 +1192,7 @@
 	Invert All	Alles omkeren
 	Invert has no settings.	Omkeren heeft geen instellingen.
 	Italic	Cursief
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	Bezoek ICASYS
 	Justify all	Alles uitvullen
 	Justify last centered	Uitvullen, laatste regel gecentreerd
 	Justify last left	Uitvullen, laatste regel links
@@ -3034,7 +3034,6 @@ cameraRaw	Color	Kleur
 	Custom Pixel Aspect Ratio	Aangepaste pixelverhouding
 	32-bit Preview Options	Voorvertoningsopties 32-bit
 	New Guide	Nieuwe hulplijn
-	ICASYS Community	ICASYS Community
 	Report an Issue	Probleem melden
 	Load Files into Stack	Bestanden in stapel laden
 	Statistics	Statistieken
@@ -3878,7 +3877,7 @@ curves	Smooth	Vloeiend maken
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} handeling geladen uit {file}|{n} handelingen geladen uit {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} stap heeft nog geen equivalent in ICASYS Foto|{n} stappen hebben nog geen equivalent in ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} stap heeft nog geen equivalent in ICASYS Foto|{n} stappen hebben nog geen equivalent in ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} handeling opgeslagen in {file}|{n} handelingen opgeslagen in {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	{n} stap zonder Photoshop-equivalent weggelaten|{n} stappen zonder Photoshop-equivalent weggelaten
 

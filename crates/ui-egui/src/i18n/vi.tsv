@@ -654,7 +654,7 @@
 	6-up	6 cửa sổ
 	About ICASYS Foto	Giới thiệu ICASYS Foto
 	Actions	Thao tác
-	ICASYS Website	ICASYS Website
+	ICASYS Website	Trang web ICASYS
 	Brush Settings	Thiết lập cọ
 	Brushes	Cọ
 	Cascade	Xếp tầng
@@ -674,7 +674,7 @@
 	Histogram	Histogram
 	History	Lịch sử
 	Info	Thông tin
-	ICASYS Community…	ICASYS Community…
+	ICASYS Community…	Cộng đồng ICASYS…
 	Layer Comps	Tổ hợp lớp
 	Lock Workspace	Khóa không gian làm việc
 	Match All	Đồng bộ tất cả
@@ -1962,7 +1962,7 @@ colorRange	Invert	Đảo ngược
 
 # Visual QA finalization
 	New document…	Tài liệu mới…
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	Truy cập ICASYS
 	ICASYS Foto website	Trang web ICASYS Foto
 	Anchor:	Neo:
 	Canvas extension color:	Màu mở rộng canvas:
@@ -2325,7 +2325,6 @@ layers	Fill:	Độ tô:
 	Add	Thêm
 	Appearance	Giao diện
 shape	Appearance	Diện mạo
-	ICASYS	ICASYS
 	Bottom	Dưới
 	Capture	Ghi lại
 	Change	Thay
@@ -2334,6 +2333,7 @@ shape	Appearance	Diện mạo
 	current	hiện tại
 	Cycle Orientation	Đổi hướng khung
 	Difference	Hiệu
+	ICASYS Community	Cộng đồng ICASYS
 	Display P3	Display P3
 	GitHub	GitHub
 	Gray Gamma 2.2	Gray Gamma 2.2
@@ -3601,7 +3601,7 @@ curves	Smooth	Làm mượt
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Đã nạp {n} hành động từ {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} bước chưa có chức năng tương ứng trong ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} bước chưa có chức năng tương ứng trong ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Đã lưu {n} hành động vào {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Đã bỏ qua {n} bước không có chức năng tương ứng trong Photoshop
 

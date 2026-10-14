@@ -507,8 +507,8 @@
 	ICASYS Foto Website	Вебсайт ICASYS Foto
 	ICASYS Foto on GitHub	ICASYS Foto на GitHub
 	Report an Issue…	Повідомити про проблему…
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	Вебсайт ICASYS
+	ICASYS Community…	Спільнота ICASYS…
 	System Info…	Інформація про систему…
 
 # Tools and options bar
@@ -1647,9 +1647,8 @@
 	Preserve Transparency	Зберігати прозорість
 	Reverse	Зворотний
 	Align with layer	Вирівняти за шаром
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	Відвідати ICASYS
 	ICASYS Foto website	Вебсайт ICASYS Foto
-	ICASYS	ICASYS
 	GitHub	GitHub
 	No character style	Без стилю символів
 	No author	Автор відсутній
@@ -2078,6 +2077,7 @@
 	Delete tool preset	Видалити набір інструмента
 	Depth Jitter	Коливання глибини
 	Discontiguous	Несуміжні
+	ICASYS Community	Спільнота ICASYS
 	Display P3	Display P3
 	Display Text	Показувати текст
 	Divide…	Розділити…
@@ -3328,7 +3328,6 @@ cameraRaw	Masking	Маскування
 	Custom Pixel Aspect Ratio	Довільне співвідношення сторін пікселя
 	32-bit Preview Options	Параметри 32-бітного перегляду
 	New Guide	Нова напрямна
-	ICASYS Community	ICASYS Community
 	Report an Issue	Повідомити про проблему
 	WIA Support	Підтримка WIA
 	Load Files into Stack	Завантажити файли у стос
@@ -3817,7 +3816,7 @@ curves	Smooth	Згладити
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Завантажено {n} операцію з {file}|Завантажено {n} операції з {file}|Завантажено {n} операцій з {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} крок ще не має відповідника в ICASYS Foto|{n} кроки ще не мають відповідника в ICASYS Foto|{n} кроків ще не мають відповідника в ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} крок ще не має відповідника в ICASYS Foto|{n} кроки ще не мають відповідника в ICASYS Foto|{n} кроків ще не мають відповідника в ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Збережено {n} операцію до {file}|Збережено {n} операції до {file}|Збережено {n} операцій до {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Пропущено {n} крок без відповідника в Photoshop|Пропущено {n} кроки без відповідника в Photoshop|Пропущено {n} кроків без відповідника в Photoshop
 

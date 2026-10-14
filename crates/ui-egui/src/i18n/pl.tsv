@@ -789,8 +789,8 @@
 	About ICASYS Foto	O programie ICASYS Foto
 	ICASYS Foto Website	Strona internetowa ICASYS Foto
 	ICASYS Foto on GitHub	ICASYS Foto na GitHubie
-	ICASYS Website	ICASYS Website
-	ICASYS Community…	ICASYS Community…
+	ICASYS Website	Strona ICASYS
+	ICASYS Community…	Społeczność ICASYS…
 	Report an Issue…	Zgłoś problem…
 	WIA Support…	Obsługa WIA…
 	Apply	Zastosuj
@@ -1076,7 +1076,7 @@
 	Diffusion	Dyfuzja
 	Discard the embedded profile (don't color manage)	Odrzuć osadzony profil (bez zarządzania kolorami)
 	Discontiguous	Niesąsiadujące
-	ICASYS	ICASYS
+	ICASYS Community	Społeczność ICASYS
 	Dismiss	Zamknij
 	Display P3	Display P3
 	Display Text	Tekst wyświetlany
@@ -1207,7 +1207,7 @@
 	Invert All	Odwróć wszystko
 	Invert has no settings.	Odwracanie nie ma ustawień.
 	Italic	Kursywa
-	Visit ICASYS	Visit ICASYS
+	Visit ICASYS	Odwiedź ICASYS
 	Justify all	Wyjustuj wszystko
 	Justify last centered	Wyjustuj, ostatni wiersz wyśrodkowany
 	Justify last left	Wyjustuj, ostatni wiersz do lewej
@@ -3144,7 +3144,6 @@ cameraRaw	Roughness	Chropowatość
 	Custom Pixel Aspect Ratio	Niestandardowe proporcje pikseli
 	32-bit Preview Options	Opcje podglądu 32-bitowego
 	New Guide	Nowa prowadnica
-	ICASYS Community	ICASYS Community
 	Report an Issue	Zgłoś problem
 	WIA Support	Obsługa WIA
 	Load Files into Stack	Wczytaj pliki do stosu
@@ -3716,7 +3715,7 @@ curves	Smooth	Wygładź
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Wczytano {n} operację z {file}|Wczytano {n} operacje z {file}|Wczytano {n} operacji z {file}
-@plural	{n} step has no ICASYS Foto equivalent yet|{n} steps have no ICASYS Foto equivalent yet	{n} krok nie ma jeszcze odpowiednika w ICASYS Foto|{n} kroki nie mają jeszcze odpowiednika w ICASYS Foto|{n} kroków nie ma jeszcze odpowiednika w ICASYS Foto
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} krok nie ma jeszcze odpowiednika w ICASYS Foto|{n} kroki nie mają jeszcze odpowiednika w ICASYS Foto|{n} kroków nie ma jeszcze odpowiednika w ICASYS Foto
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Zapisano {n} operację do {file}|Zapisano {n} operacje do {file}|Zapisano {n} operacji do {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Pominięto {n} krok bez odpowiednika w Photoshopie|Pominięto {n} kroki bez odpowiednika w Photoshopie|Pominięto {n} kroków bez odpowiednika w Photoshopie
 
