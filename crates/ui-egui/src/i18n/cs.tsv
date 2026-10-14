@@ -857,7 +857,7 @@
 	All Caps	Verzálky
 	All Slices	Všechny řezy
 	All User Slices	Všechny uživatelské řezy
-	All shortcuts reset to ICASYS Foto defaults.	Všechny zkratky byly obnoveny na výchozí hodnoty ICASYS Fotou.
+	All shortcuts reset to ICASYS Foto defaults.	Všechny zkratky byly obnoveny na výchozí hodnoty PhotoCraftu.
 	Alt	Alt
 	Always use pressure for opacity	Vždy použít přítlak pro krytí
 	Always use pressure for size	Vždy použít přítlak pro velikost
@@ -1435,11 +1435,11 @@
 	Import Shortcuts…	Importovat zkratky…
 	Load a keyboard shortcut set saved as .kys	Načíst sadu klávesových zkratek uloženou jako .kys
 	Imported {n} shortcuts from {file}. Click OK to keep them.	Importováno zkratek: {n} ze souboru {file}. Klepnutím na OK je ponecháte.
-	{n} commands are not in ICASYS Foto.	Příkazů, které v ICASYS Fotou nejsou: {n}.
+	{n} commands are not in ICASYS Foto.	Příkazů, které v PhotoCraftu nejsou: {n}.
 	Keyboard shortcuts imported	Klávesové zkratky importovány
 	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	Vaše sada klávesových zkratek {set} se zde používá: {n} zkratek se liší od výchozích. Zobrazí je Úpravy › Klávesové zkratky; Obnovit vše na výchozí to vrátí zpět.
 	Import keyboard shortcuts?	Importovat klávesové zkratky?
-	ICASYS Foto found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from ICASYS Foto's. Import it?	ICASYS Foto na tomto počítači našel vaši sadu klávesových zkratek {set} z jiného editoru obrázků: {n} jejích zkratek se liší od zkratek ICASYS Fotou. Importovat ji?
+	ICASYS Foto found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from ICASYS Foto's. Import it?	ICASYS Foto na tomto počítači našel vaši sadu klávesových zkratek {set} z jiného editoru obrázků: {n} jejích zkratek se liší od zkratek PhotoCraftu. Importovat ji?
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	Úpravy › Klávesové zkratky › Obnovit vše na výchozí import vrátí zpět.
 	Don't Import	Neimportovat
 	The keyboard shortcut set was not imported: {error}	Sada klávesových zkratek nebyla importována: {error}
@@ -3726,7 +3726,7 @@ navigator	Zoom	Zvětšení
 	{name} (Photoshop)	{name} (Photoshop)
 	{message} ({note})	{message} ({note})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Načtena {n} akce ze souboru {file}|Načteny {n} akce ze souboru {file}|Načteno {n} akcí ze souboru {file}
-@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} krok zatím nemá v ICASYS Fotou obdobu|{n} kroky zatím nemají v ICASYS Fotou obdobu|{n} kroků zatím nemá v ICASYS Fotou obdobu
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} krok zatím nemá v PhotoCraftu obdobu|{n} kroky zatím nemají v PhotoCraftu obdobu|{n} kroků zatím nemá v PhotoCraftu obdobu
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Uložena {n} akce do souboru {file}|Uloženy {n} akce do souboru {file}|Uloženo {n} akcí do souboru {file}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Vynechán {n} krok bez obdoby v Photoshopu|Vynechány {n} kroky bez obdoby v Photoshopu|Vynecháno {n} kroků bez obdoby v Photoshopu
 
