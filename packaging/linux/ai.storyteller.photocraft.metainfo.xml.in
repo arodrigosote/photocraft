@@ -5,7 +5,7 @@
   <id>ai.storyteller.photocraft</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT OR Apache-2.0</project_license>
-  <name>PhotoCraft</name>
+  <name>ICASYS Foto</name>
   <summary>Edit photos and layered PSD documents</summary>
   <developer id="ai.storyteller">
     <name>Learning Machines LLC</name>
@@ -26,10 +26,10 @@
   <launchable type="desktop-id">ai.storyteller.photocraft.desktop</launchable>
   <icon type="stock">ai.storyteller.photocraft</icon>
   <!-- Only url types known to appstream 0.15 (Ubuntu 22.04, where CI validates): no vcs-browser. -->
-  <url type="homepage">https://getartcraft.com/apps/photocraft</url>
-  <url type="bugtracker">https://github.com/storytold/photocraft/issues</url>
-  <url type="help">https://github.com/storytold/photocraft</url>
-  <url type="contact">https://discord.gg/artcraft</url>
+  <url type="homepage">https://icasys.mx</url>
+  <url type="bugtracker">https://github.com/arodrigosote/photocraft/issues</url>
+  <url type="help">https://github.com/arodrigosote/photocraft</url>
+  <url type="contact">https://icasys.mx</url>
   <categories>
     <category>Graphics</category>
     <category>RasterGraphics</category>
@@ -44,7 +44,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Editing The Great Wave off Kanagawa with type layers and adjustment layers</caption>
-      <image>https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg</image>
+      <image>https://raw.githubusercontent.com/arodrigosote/photocraft/main/docs/images/photocraft-demo.jpg</image>
     </screenshot>
   </screenshots>
   <branding>

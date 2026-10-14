@@ -33,9 +33,9 @@
     <string>vi</string>
   </array>
   <key>CFBundleDisplayName</key>
-  <string>PhotoCraft</string>
+  <string>ICASYS Foto</string>
   <key>CFBundleName</key>
-  <string>PhotoCraft</string>
+  <string>ICASYS Foto</string>
   <key>CFBundleExecutable</key>
   <string>PhotoCraft</string>
   <key>CFBundleIdentifier</key>
