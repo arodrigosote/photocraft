@@ -278,6 +278,7 @@ def windows(out: Path):
     (stage / "product.wxs").write_text(wxs, encoding="utf-8")
     msi = out / f"icasys-{SLUG}-{VERSION}-windows-x64.msi"
     sh("wix", "build", "-arch", "x64", "-ext", "WixToolset.UI.wixext", "-o", msi, stage / "product.wxs")
+    msi.with_suffix(".wixpdb").unlink(missing_ok=True)   # WiX debug symbols: not a deliverable
     if signtool:
         sh(signtool, "sign", "/f", pfx, "/p", pw, "/fd", "SHA256", "/tr", "http://timestamp.digicert.com", "/td", "SHA256", msi)
     (out / "signing-windows.json").write_text(json.dumps({"signed": signed, "notarized": False, "how": "Authenticode" if signed else "sin firma"}), encoding="utf-8")
