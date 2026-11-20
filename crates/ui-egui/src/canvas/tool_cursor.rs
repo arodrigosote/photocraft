@@ -81,7 +81,7 @@ pub(crate) struct CursorLifecycle;
 
 impl egui::plugin::Plugin for CursorLifecycle {
     fn debug_name(&self) -> &'static str {
-        "PhotoCraft tool cursor"
+        "ICASYS Foto tool cursor"
     }
 
     fn on_begin_pass(&mut self, ui: &mut egui::Ui) {

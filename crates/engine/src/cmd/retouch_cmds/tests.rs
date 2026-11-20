@@ -1622,7 +1622,7 @@ fn content_aware_move_structure_and_color_shape_the_result() {
     let (kept, some, fitted) = (mean(0), mean(3), mean(10));
     assert!((kept - 0.8).abs() < 1e-3, "color 0 keeps the colour: {kept}");
     // A brightness-only patch stays through Color 5 and matches the new surroundings at Color 10
-    // (0.8 onto 0.2). https://github.com/storytold/photocraft/issues/12197#issuecomment-6716231485
+    // (0.8 onto 0.2). https://github.com/arodrigosote/photocraft/issues/12197#issuecomment-6716231485
     assert!((some - 0.8).abs() < 0.03, "color 3 leaves the middle: {some}");
     assert!((fitted - 0.2).abs() < 0.03, "color 10 matches the new surroundings: {fitted}");
 }

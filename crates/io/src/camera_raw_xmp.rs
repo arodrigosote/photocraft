@@ -387,7 +387,7 @@ fn escape(s: &str) -> String {
 }
 
 /// The XMP toolkit [`save`] names on `x:xmpmeta`.
-const TOOLKIT: &str = "PhotoCraft";
+const TOOLKIT: &str = "ICASYS Foto";
 const META_NS: &str = "adobe:ns:meta/";
 
 /// Did [`save`] write this file? True when its `x:xmpmeta` names PhotoCraft as the toolkit
