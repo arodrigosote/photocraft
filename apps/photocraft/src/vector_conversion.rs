@@ -54,9 +54,9 @@ fn run_export(editor: &Path, source: &ExternalVectorSource, stop: &Receiver<()>,
     // Selecting an editor explicitly also selects its adjacent VectorCraft CLI; PATH and the
     // embedded file name never participate in executable discovery.
     let metadata =
-        std::fs::symlink_metadata(&cli).map_err(|_| "Embedded AI/PDF/EPS editing needs vectorcraft-cli next to the selected VectorCraft executable")?;
+        std::fs::symlink_metadata(&cli).map_err(|_| "Embedded AI/PDF/EPS editing needs vectorcraft-cli next to the selected ICASYS Vectores executable")?;
     if !metadata.is_file() || metadata.file_type().is_symlink() {
-        return Err("VectorCraft CLI must be a regular file".into());
+        return Err("ICASYS Vectores CLI must be a regular file".into());
     }
     let input = owned.root.join(format!("Source.{}", source.extension));
     let mut file = std::fs::OpenOptions::new().write(true).create_new(true).open(&input).map_err(|e| format!("Cannot create vector input: {e}"))?;
@@ -83,9 +83,9 @@ fn run_export(editor: &Path, source: &ExternalVectorSource, stop: &Receiver<()>,
         .stdout(Stdio::from(responses_output))
         .stderr(Stdio::null())
         .spawn()
-        .map_err(|e| format!("Cannot start VectorCraft conversion: {e}"))?;
+        .map_err(|e| format!("Cannot start ICASYS Vectores conversion: {e}"))?;
     let result = (|| {
-        let mut stdin = child.stdin.take().ok_or("VectorCraft conversion input is unavailable")?;
+        let mut stdin = child.stdin.take().ok_or("ICASYS Vectores conversion input is unavailable")?;
         for (id, command, params) in commands {
             let request = serde_json::json!({"jsonrpc":"2.0","id":id,"method":"tools/call","params":{"name":"run_command","arguments":{"command":command,"params":params}}});
             writeln!(stdin, "{request}").map_err(|e| format!("Cannot send vector conversion request: {e}"))?;
@@ -98,12 +98,12 @@ fn run_export(editor: &Path, source: &ExternalVectorSource, stop: &Receiver<()>,
             }
             if let Some(status) = child.try_wait().map_err(|e| format!("Cannot wait for vector conversion: {e}"))? {
                 if !status.success() {
-                    return Err("VectorCraft could not convert the embedded vector".into());
+                    return Err("ICASYS Vectores could not convert the embedded vector".into());
                 }
                 break;
             }
             if Instant::now() >= deadline {
-                return Err("VectorCraft conversion timed out".into());
+                return Err("ICASYS Vectores conversion timed out".into());
             }
             std::thread::sleep(Duration::from_millis(25));
         }
@@ -114,7 +114,7 @@ fn run_export(editor: &Path, source: &ExternalVectorSource, stop: &Receiver<()>,
         validate_responses(&responses)?;
         let converted = owned.read(&owned.stamp()?)?;
         if format == "ai" && !converted.starts_with(b"%PDF-") {
-            return Err("VectorCraft did not save a PDF-compatible AI working copy".into());
+            return Err("ICASYS Vectores did not save a PDF-compatible AI working copy".into());
         }
         Ok(converted)
     })();
@@ -150,7 +150,7 @@ fn source_svg(bytes: &[u8], size: Option<(f64, f64)>) -> Result<Vec<u8>, String>
     let doc = roxmltree::Document::parse(text).map_err(|e| format!("Invalid converted SVG: {e}"))?;
     let root = doc.root_element();
     if root.tag_name().name() != "svg" {
-        return Err("VectorCraft did not return SVG".into());
+        return Err("ICASYS Vectores did not return SVG".into());
     }
     let Some((w, h)) = size else {
         return Ok(bytes.to_vec());
@@ -179,14 +179,14 @@ fn source_svg(bytes: &[u8], size: Option<(f64, f64)>) -> Result<Vec<u8>, String>
 /// Require successful replies for both opening the source and exporting the SVG.
 fn validate_responses(text: &str) -> Result<(), String> {
     if text.len() > 1024 * 1024 {
-        return Err("VectorCraft conversion responses exceeded the limit".into());
+        return Err("ICASYS Vectores conversion responses exceeded the limit".into());
     }
     let replies: Vec<serde_json::Value> =
-        text.lines().map(serde_json::from_str).collect::<Result<_, _>>().map_err(|_| "Invalid VectorCraft conversion response")?;
+        text.lines().map(serde_json::from_str).collect::<Result<_, _>>().map_err(|_| "Invalid ICASYS Vectores conversion response")?;
     for id in [1, 2] {
-        let reply = replies.iter().find(|r| r.get("id").and_then(serde_json::Value::as_u64) == Some(id)).ok_or("Missing VectorCraft conversion response")?;
+        let reply = replies.iter().find(|r| r.get("id").and_then(serde_json::Value::as_u64) == Some(id)).ok_or("Missing ICASYS Vectores conversion response")?;
         if reply.get("error").is_some() || reply.get("result").and_then(|r| r.get("isError")).and_then(serde_json::Value::as_bool) != Some(false) {
-            return Err("VectorCraft could not open or export the embedded vector; original contents were retained".into());
+            return Err("ICASYS Vectores could not open or export the embedded vector; original contents were retained".into());
         }
     }
     Ok(())

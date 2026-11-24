@@ -6,12 +6,12 @@ use serde_json::{Value, json};
 
 use crate::PhotocraftApp;
 
-pub const DISCORD: &str = "https://discord.gg/artcraft";
-pub const ARTCRAFT_WEBSITE: &str = "https://getartcraft.com";
-pub const APP_PAGE: &str = "https://getartcraft.com/apps/photocraft";
-pub const TUTORIALS: &str = "https://getartcraft.com/tutorials";
-pub const GITHUB: &str = "https://github.com/storytold/photocraft";
-pub const ISSUES: &str = "https://github.com/storytold/photocraft/issues";
+pub const DISCORD: &str = "https://icasys.mx";
+pub const ARTCRAFT_WEBSITE: &str = "https://icasys.mx";
+pub const APP_PAGE: &str = "https://icasys.mx";
+pub const TUTORIALS: &str = "https://icasys.mx";
+pub const GITHUB: &str = "https://github.com/arodrigosote/photocraft";
+pub const ISSUES: &str = "https://github.com/arodrigosote/photocraft/issues";
 
 /// Help-menu link commands: (id, url). Labels live in `menus::UI_COMMANDS`.
 pub const COMMANDS: &[(&str, &str)] =
@@ -33,9 +33,9 @@ pub fn open(app: &mut PhotocraftApp, ctx: &egui::Context, url: &str) -> Value {
     json!({"url": url})
 }
 
-/// The prominent "Join us on Discord" button.
+/// The prominent "Visit ICASYS" button.
 pub fn discord_button(app: &mut PhotocraftApp, ui: &mut egui::Ui, min_width: f32) -> egui::Response {
-    let r = crate::widgets::primary_button(ui, tl!("Join us on Discord"), min_width).on_hover_text(DISCORD);
+    let r = crate::widgets::primary_button(ui, tl!("Visit ICASYS"), min_width).on_hover_text(DISCORD);
     if r.clicked() {
         open(app, ui.ctx(), DISCORD);
     }
@@ -46,7 +46,7 @@ pub fn discord_button(app: &mut PhotocraftApp, ui: &mut egui::Ui, min_width: f32
 /// platform browser service) rather than `ui.hyperlink_to`, which uses the unreliable `ctx.open_url`.
 pub fn link_row(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
     let t = crate::theme::Tokens::get(ui.ctx());
-    let links = [(tl!("PhotoCraft website"), APP_PAGE), (tl!("GitHub"), GITHUB), (tl!("ArtCraft"), ARTCRAFT_WEBSITE)];
+    let links = [(tl!("ICASYS Foto website"), APP_PAGE), (tl!("GitHub"), GITHUB), (tl!("ICASYS Website"), ARTCRAFT_WEBSITE)];
     let font = egui::FontId::proportional(12.5);
     let sep = "  ·  ";
     let width: f32 = links.iter().map(|(l, _)| ui.painter().layout_no_wrap((*l).into(), font.clone(), t.text).size().x).sum::<f32>()
@@ -127,9 +127,9 @@ mod tests {
         let mut app = PhotocraftApp::new(photocraft_engine::Session::new(), Default::default());
         let ctx = egui::Context::default();
         for (id, url) in [
-            ("help.discord", "https://discord.gg/artcraft"),
-            ("help.website", "https://getartcraft.com/apps/photocraft"),
-            ("help.github", "https://github.com/storytold/photocraft"),
+            ("help.discord", "https://icasys.mx"),
+            ("help.website", "https://icasys.mx"),
+            ("help.github", "https://github.com/arodrigosote/photocraft"),
         ] {
             let r = crate::menus::invoke(&mut app, &ctx, id, serde_json::json!({})).unwrap();
             assert_eq!(r["url"], url);

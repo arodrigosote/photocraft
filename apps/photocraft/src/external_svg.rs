@@ -176,7 +176,7 @@ mod native {
         vectorcraft_programs()
             .into_iter()
             .find(|program| has_adjacent_cli(program))
-            .ok_or_else(|| "AI/PDF/EPS editing also needs an installed VectorCraft CLI to validate display previews".into())
+            .ok_or_else(|| "AI/PDF/EPS editing also needs an installed ICASYS Vectores CLI to validate display previews".into())
     }
 
     /// A known VectorCraft location: a bare executable, or a macOS application bundle.
@@ -233,7 +233,7 @@ mod native {
                 .into_iter()
                 .next()
                 .map(Resolved::direct)
-                .ok_or_else(|| format!("VectorCraft was not found. Choose its executable with {OTHER_APPLICATION}")),
+                .ok_or_else(|| format!("ICASYS Vectores was not found. Choose its executable with {OTHER_APPLICATION}")),
             ExternalSvgEditor::Illustrator if cfg!(target_os = "macos") => newest_illustrator(Path::new("/Applications")),
             ExternalSvgEditor::Illustrator => Err(format!("Choose a local executable with {OTHER_APPLICATION}")),
         }
@@ -429,7 +429,7 @@ mod native {
                 candidates
                     .into_iter()
                     .find_map(|path| validate_executable(&path).ok())
-                    .ok_or_else(|| format!("VectorCraft was not found. Choose its executable with {OTHER_APPLICATION}"))
+                    .ok_or_else(|| format!("ICASYS Vectores was not found. Choose its executable with {OTHER_APPLICATION}"))
             }
             ExternalSvgEditor::Illustrator => {
                 let mut candidates = vec![];

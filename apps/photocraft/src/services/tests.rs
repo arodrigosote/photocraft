@@ -998,11 +998,11 @@ fn psb_is_its_own_save_type() {
 #[test]
 fn save_types_list_the_document_formats_then_the_rest_by_name() {
     let names: Vec<&str> = SAVE_FILTERS.iter().map(|(name, _)| *name).collect();
-    assert_eq!(names[..3], ["PSD Document", "PSB Large Document", "PhotoCraft"]);
+    assert_eq!(names[..3], ["PSD Document", "PSB Large Document", "ICASYS Foto"]);
     let key = |name: &&str| name.to_ascii_lowercase();
     assert!(names[3..].is_sorted_by_key(key), "{:?}", &names[3..]);
     let names: Vec<&str> = OPEN_FILTERS.iter().map(|(name, _)| *name).collect();
-    assert_eq!(names[..2], ["Photoshop", "PhotoCraft"]);
+    assert_eq!(names[..2], ["Photoshop", "ICASYS Foto"]);
     let formats = names.iter().position(|name| *name == "Brushes").expect("the app's own resources");
     assert!(names[2..formats].is_sorted_by_key(key), "{:?}", &names[2..formats]);
 }
